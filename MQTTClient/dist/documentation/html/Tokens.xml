@@ -2,12 +2,899 @@
 <Tokens version="1.0">
   <Token>
     <TokenIdentifier>
+      <Name>md__Users_ckrey_MQTT-Client-Framework_CHANGELOG</Name>
+      <APILanguage>markdown</APILanguage>
+    </TokenIdentifier>
+    <Path>md___users_ckrey__m_q_t_t-_client-_framework__c_h_a_n_g_e_l_o_g.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MQTTCFSocketTransport</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>MQTTCFSocketTransport</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_c_f_socket_transport.html</Path>
+    <DeclaredIn>MQTTCFSocketTransport.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>clientCertsFromP12:passphrase:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>MQTTCFSocketTransport</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_c_f_socket_transport.html</Path>
+    <Anchor>ad16ebe588f4117e04f908e59935f096a</Anchor>
+    <DeclaredIn>MQTTCFSocketTransport.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>host</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>MQTTCFSocketTransport</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_c_f_socket_transport.html</Path>
+    <Anchor>ae30997b61a8be6b11bf3bb33cf751995</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>port</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>MQTTCFSocketTransport</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_c_f_socket_transport.html</Path>
+    <Anchor>a2b8899b8e97c85b4d9757705aa6ba968</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>tls</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>MQTTCFSocketTransport</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_c_f_socket_transport.html</Path>
+    <Anchor>ac0c5a60636d7561abf1d20caddf6ea96</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>voip</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>MQTTCFSocketTransport</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_c_f_socket_transport.html</Path>
+    <Anchor>a93ad817080f804937ad2bfd7d4db2b8b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>certificates</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>MQTTCFSocketTransport</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_c_f_socket_transport.html</Path>
+    <Anchor>a6e71885e479e6bc28e00f6657fe77205</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MQTTCoreDataFlow</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>MQTTCoreDataFlow</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_core_data_flow.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>clientId</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTFlow-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_flow-p.html</Path>
+    <Anchor>adcecd8d7fb46a9ee206eee3aa55317ab</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>incomingFlag</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTFlow-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_flow-p.html</Path>
+    <Anchor>a020ab7c2407db69e70f6d649ec1b7908</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>retainedFlag</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTFlow-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_flow-p.html</Path>
+    <Anchor>a923204eafe7a147c22f9cccd0e1e757f</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>commandType</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTFlow-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_flow-p.html</Path>
+    <Anchor>a08a38c51f8220a7af42fc2e3d2eb9969</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>qosLevel</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTFlow-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_flow-p.html</Path>
+    <Anchor>aec73f69c40a179fa9419a45af1967e6b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>messageId</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTFlow-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_flow-p.html</Path>
+    <Anchor>aebfe27d14d007dbbe4c0f707fb39dc00</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>topic</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTFlow-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_flow-p.html</Path>
+    <Anchor>ad218ad5cb39f49c477ab92b1e6d408dc</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>data</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTFlow-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_flow-p.html</Path>
+    <Anchor>a50900cbdfdf270e47fccaa9fee560e25</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>deadline</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTFlow-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_flow-p.html</Path>
+    <Anchor>af5c0d997c85856cfdad2eab9e425b01a</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MQTTCoreDataPersistence</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>MQTTCoreDataPersistence</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_core_data_persistence.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>windowSize:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>MQTTPersistence-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_persistence-p.html</Path>
+    <Anchor>a8521b079578db32e593d841ce2941fc0</Anchor>
+    <DeclaredIn>MQTTPersistence.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>storeMessageForClientId:topic:data:retainFlag:qos:msgId:incomingFlag:commandType:deadline:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>MQTTPersistence-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_persistence-p.html</Path>
+    <Anchor>ac4dcb1941bac80050f643fab3faf0fe4</Anchor>
+    <DeclaredIn>MQTTPersistence.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>deleteFlow:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>MQTTPersistence-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_persistence-p.html</Path>
+    <Anchor>a415cc2c67ea2e73d7942973a2186d083</Anchor>
+    <DeclaredIn>MQTTPersistence.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>deleteAllFlowsForClientId:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>MQTTPersistence-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_persistence-p.html</Path>
+    <Anchor>a2c880d902ade2b17078545cef8d212e7</Anchor>
+    <DeclaredIn>MQTTPersistence.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>allFlowsforClientId:incomingFlag:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>MQTTPersistence-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_persistence-p.html</Path>
+    <Anchor>a513e62e567e187ce73fab26f53d2272a</Anchor>
+    <DeclaredIn>MQTTPersistence.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>flowforClientId:incomingFlag:messageId:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>MQTTPersistence-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_persistence-p.html</Path>
+    <Anchor>a2ca81852c486e32d888ef502b8dc47d5</Anchor>
+    <DeclaredIn>MQTTPersistence.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sync</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>MQTTPersistence-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_persistence-p.html</Path>
+    <Anchor>afd0744d75cb430bfa2c430e14c3a65e8</Anchor>
+    <DeclaredIn>MQTTPersistence.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>maxWindowSize</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTPersistence-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_persistence-p.html</Path>
+    <Anchor>a7566c5b7fff68c034ffd836c32d1b822</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>maxMessages</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTPersistence-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_persistence-p.html</Path>
+    <Anchor>a25da1e10303f72b9f5c0acded51780d2</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>persistent</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTPersistence-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_persistence-p.html</Path>
+    <Anchor>abe825bce839eb0d41e4b7428893ad8b8</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>maxSize</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTPersistence-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_persistence-p.html</Path>
+    <Anchor>a9803a6b662157637e28949766186c3d5</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MQTTFlow</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>MQTTFlow</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_flow.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>clientId</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTFlow-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_flow-p.html</Path>
+    <Anchor>adcecd8d7fb46a9ee206eee3aa55317ab</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>incomingFlag</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTFlow-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_flow-p.html</Path>
+    <Anchor>a020ab7c2407db69e70f6d649ec1b7908</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>retainedFlag</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTFlow-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_flow-p.html</Path>
+    <Anchor>a923204eafe7a147c22f9cccd0e1e757f</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>commandType</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTFlow-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_flow-p.html</Path>
+    <Anchor>a08a38c51f8220a7af42fc2e3d2eb9969</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>qosLevel</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTFlow-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_flow-p.html</Path>
+    <Anchor>aec73f69c40a179fa9419a45af1967e6b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>messageId</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTFlow-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_flow-p.html</Path>
+    <Anchor>aebfe27d14d007dbbe4c0f707fb39dc00</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>topic</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTFlow-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_flow-p.html</Path>
+    <Anchor>ad218ad5cb39f49c477ab92b1e6d408dc</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>data</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTFlow-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_flow-p.html</Path>
+    <Anchor>a50900cbdfdf270e47fccaa9fee560e25</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>deadline</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTFlow-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_flow-p.html</Path>
+    <Anchor>af5c0d997c85856cfdad2eab9e425b01a</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MQTTFlow</Name>
+      <APILanguage>c</APILanguage>
+      <Type>intf</Type>
+      <Scope>MQTTFlow</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_flow-p.html</Path>
+    <DeclaredIn>MQTTPersistence.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>clientId</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTFlow-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_flow-p.html</Path>
+    <Anchor>adcecd8d7fb46a9ee206eee3aa55317ab</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>incomingFlag</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTFlow-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_flow-p.html</Path>
+    <Anchor>a020ab7c2407db69e70f6d649ec1b7908</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>retainedFlag</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTFlow-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_flow-p.html</Path>
+    <Anchor>a923204eafe7a147c22f9cccd0e1e757f</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>commandType</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTFlow-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_flow-p.html</Path>
+    <Anchor>a08a38c51f8220a7af42fc2e3d2eb9969</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>qosLevel</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTFlow-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_flow-p.html</Path>
+    <Anchor>aec73f69c40a179fa9419a45af1967e6b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>messageId</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTFlow-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_flow-p.html</Path>
+    <Anchor>aebfe27d14d007dbbe4c0f707fb39dc00</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>topic</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTFlow-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_flow-p.html</Path>
+    <Anchor>ad218ad5cb39f49c477ab92b1e6d408dc</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>data</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTFlow-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_flow-p.html</Path>
+    <Anchor>a50900cbdfdf270e47fccaa9fee560e25</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>deadline</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTFlow-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_flow-p.html</Path>
+    <Anchor>af5c0d997c85856cfdad2eab9e425b01a</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MQTTInMemoryFlow</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>MQTTInMemoryFlow</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_in_memory_flow.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>clientId</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTFlow-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_flow-p.html</Path>
+    <Anchor>adcecd8d7fb46a9ee206eee3aa55317ab</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>incomingFlag</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTFlow-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_flow-p.html</Path>
+    <Anchor>a020ab7c2407db69e70f6d649ec1b7908</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>retainedFlag</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTFlow-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_flow-p.html</Path>
+    <Anchor>a923204eafe7a147c22f9cccd0e1e757f</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>commandType</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTFlow-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_flow-p.html</Path>
+    <Anchor>a08a38c51f8220a7af42fc2e3d2eb9969</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>qosLevel</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTFlow-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_flow-p.html</Path>
+    <Anchor>aec73f69c40a179fa9419a45af1967e6b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>messageId</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTFlow-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_flow-p.html</Path>
+    <Anchor>aebfe27d14d007dbbe4c0f707fb39dc00</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>topic</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTFlow-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_flow-p.html</Path>
+    <Anchor>ad218ad5cb39f49c477ab92b1e6d408dc</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>data</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTFlow-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_flow-p.html</Path>
+    <Anchor>a50900cbdfdf270e47fccaa9fee560e25</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>deadline</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTFlow-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_flow-p.html</Path>
+    <Anchor>af5c0d997c85856cfdad2eab9e425b01a</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MQTTInMemoryPersistence</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>MQTTInMemoryPersistence</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_in_memory_persistence.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>windowSize:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>MQTTPersistence-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_persistence-p.html</Path>
+    <Anchor>a8521b079578db32e593d841ce2941fc0</Anchor>
+    <DeclaredIn>MQTTPersistence.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>storeMessageForClientId:topic:data:retainFlag:qos:msgId:incomingFlag:commandType:deadline:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>MQTTPersistence-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_persistence-p.html</Path>
+    <Anchor>ac4dcb1941bac80050f643fab3faf0fe4</Anchor>
+    <DeclaredIn>MQTTPersistence.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>deleteFlow:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>MQTTPersistence-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_persistence-p.html</Path>
+    <Anchor>a415cc2c67ea2e73d7942973a2186d083</Anchor>
+    <DeclaredIn>MQTTPersistence.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>deleteAllFlowsForClientId:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>MQTTPersistence-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_persistence-p.html</Path>
+    <Anchor>a2c880d902ade2b17078545cef8d212e7</Anchor>
+    <DeclaredIn>MQTTPersistence.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>allFlowsforClientId:incomingFlag:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>MQTTPersistence-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_persistence-p.html</Path>
+    <Anchor>a513e62e567e187ce73fab26f53d2272a</Anchor>
+    <DeclaredIn>MQTTPersistence.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>flowforClientId:incomingFlag:messageId:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>MQTTPersistence-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_persistence-p.html</Path>
+    <Anchor>a2ca81852c486e32d888ef502b8dc47d5</Anchor>
+    <DeclaredIn>MQTTPersistence.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sync</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>MQTTPersistence-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_persistence-p.html</Path>
+    <Anchor>afd0744d75cb430bfa2c430e14c3a65e8</Anchor>
+    <DeclaredIn>MQTTPersistence.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>maxWindowSize</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTPersistence-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_persistence-p.html</Path>
+    <Anchor>a7566c5b7fff68c034ffd836c32d1b822</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>maxMessages</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTPersistence-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_persistence-p.html</Path>
+    <Anchor>a25da1e10303f72b9f5c0acded51780d2</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>persistent</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTPersistence-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_persistence-p.html</Path>
+    <Anchor>abe825bce839eb0d41e4b7428893ad8b8</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>maxSize</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTPersistence-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_persistence-p.html</Path>
+    <Anchor>a9803a6b662157637e28949766186c3d5</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MQTTPersistence</Name>
+      <APILanguage>c</APILanguage>
+      <Type>intf</Type>
+      <Scope>MQTTPersistence</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_persistence-p.html</Path>
+    <DeclaredIn>MQTTPersistence.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>windowSize:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>MQTTPersistence-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_persistence-p.html</Path>
+    <Anchor>a8521b079578db32e593d841ce2941fc0</Anchor>
+    <DeclaredIn>MQTTPersistence.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>storeMessageForClientId:topic:data:retainFlag:qos:msgId:incomingFlag:commandType:deadline:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>MQTTPersistence-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_persistence-p.html</Path>
+    <Anchor>ac4dcb1941bac80050f643fab3faf0fe4</Anchor>
+    <DeclaredIn>MQTTPersistence.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>deleteFlow:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>MQTTPersistence-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_persistence-p.html</Path>
+    <Anchor>a415cc2c67ea2e73d7942973a2186d083</Anchor>
+    <DeclaredIn>MQTTPersistence.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>deleteAllFlowsForClientId:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>MQTTPersistence-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_persistence-p.html</Path>
+    <Anchor>a2c880d902ade2b17078545cef8d212e7</Anchor>
+    <DeclaredIn>MQTTPersistence.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>allFlowsforClientId:incomingFlag:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>MQTTPersistence-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_persistence-p.html</Path>
+    <Anchor>a513e62e567e187ce73fab26f53d2272a</Anchor>
+    <DeclaredIn>MQTTPersistence.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>flowforClientId:incomingFlag:messageId:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>MQTTPersistence-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_persistence-p.html</Path>
+    <Anchor>a2ca81852c486e32d888ef502b8dc47d5</Anchor>
+    <DeclaredIn>MQTTPersistence.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sync</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>MQTTPersistence-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_persistence-p.html</Path>
+    <Anchor>afd0744d75cb430bfa2c430e14c3a65e8</Anchor>
+    <DeclaredIn>MQTTPersistence.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>maxWindowSize</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTPersistence-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_persistence-p.html</Path>
+    <Anchor>a7566c5b7fff68c034ffd836c32d1b822</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>maxMessages</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTPersistence-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_persistence-p.html</Path>
+    <Anchor>a25da1e10303f72b9f5c0acded51780d2</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>persistent</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTPersistence-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_persistence-p.html</Path>
+    <Anchor>abe825bce839eb0d41e4b7428893ad8b8</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>maxSize</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTPersistence-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_persistence-p.html</Path>
+    <Anchor>a9803a6b662157637e28949766186c3d5</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>MQTTSession</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
       <Scope>MQTTSession</Scope>
     </TokenIdentifier>
     <Path>interface_m_q_t_t_session.html</Path>
+    <DeclaredIn>MQTTSession.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>connect</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>MQTTSession</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_session.html</Path>
+    <Anchor>ad443eb80793d71150a825513303405b5</Anchor>
+    <DeclaredIn>MQTTSession.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>connectWithConnectHandler:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>MQTTSession</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_session.html</Path>
+    <Anchor>af2fb37adbbf9eeb28cea7dab43297fd7</Anchor>
+    <DeclaredIn>MQTTSession.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>disconnect</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>MQTTSession</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_session.html</Path>
+    <Anchor>aef2d0980b561184800908e95dd3a9fc7</Anchor>
     <DeclaredIn>MQTTSession.h</DeclaredIn>
   </Token>
   <Token>
@@ -23,222 +910,24 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>initWithClientId:userName:password:keepAlive:cleanSession:will:willTopic:willMsg:willQoS:willRetainFlag:protocolLevel:runLoop:forMode:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>MQTTSession</Scope>
-    </TokenIdentifier>
-    <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>a5d4657d074b0dd745de2a8bded6b0308</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>initWithClientId:userName:password:keepAlive:cleanSession:will:willTopic:willMsg:willQoS:willRetainFlag:protocolLevel:runLoop:forMode:securityPolicy:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>MQTTSession</Scope>
-    </TokenIdentifier>
-    <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>accf20d5a5b630ff96b84ab88f92468fe</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>initWithClientId:userName:password:keepAlive:cleanSession:will:willTopic:willMsg:willQoS:willRetainFlag:protocolLevel:runLoop:forMode:securityPolicy:certificates:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>MQTTSession</Scope>
-    </TokenIdentifier>
-    <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>a8a4605e8dc395b784f686f5d96401ee8</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>initWithClientId:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>MQTTSession</Scope>
-    </TokenIdentifier>
-    <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>a47477e68d8200f0df23c313a2f6ee927</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>initWithClientId:runLoop:forMode:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>MQTTSession</Scope>
-    </TokenIdentifier>
-    <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>a1a346ceb51284cbad07ee3dadf0f4618</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>initWithClientId:userName:password:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>MQTTSession</Scope>
-    </TokenIdentifier>
-    <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>ab5b8767084a7ff67196351a0cbedd3f8</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>initWithClientId:userName:password:runLoop:forMode:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>MQTTSession</Scope>
-    </TokenIdentifier>
-    <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>a52b198d36af634c4ecc9e5df460e2df6</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>initWithClientId:userName:password:keepAlive:cleanSession:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>MQTTSession</Scope>
-    </TokenIdentifier>
-    <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>ad179c0ea11248b1056ecc60b1efe6aa1</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>initWithClientId:userName:password:keepAlive:cleanSession:runLoop:forMode:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>MQTTSession</Scope>
-    </TokenIdentifier>
-    <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>a89f1d6be2eedc229c50c2e6e6c7549a4</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>initWithClientId:userName:password:keepAlive:cleanSession:willTopic:willMsg:willQoS:willRetainFlag:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>MQTTSession</Scope>
-    </TokenIdentifier>
-    <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>a7dc7dfa1a3fc8bc9be7b668f39b748d2</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>initWithClientId:userName:password:keepAlive:cleanSession:willTopic:willMsg:willQoS:willRetainFlag:runLoop:forMode:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>MQTTSession</Scope>
-    </TokenIdentifier>
-    <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>aaf15fb90e0b68cc0e41ff4978d8b9d72</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>initWithClientId:keepAlive:connectMessage:runLoop:forMode:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>MQTTSession</Scope>
-    </TokenIdentifier>
-    <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>a96b88231af9e3d5735fe981e4f6c73d4</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>connectToHost:port:usingSSL:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>MQTTSession</Scope>
-    </TokenIdentifier>
-    <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>a97c0fc3b9a06d8c5eefa3012591feb82</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>connectToHost:port:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>MQTTSession</Scope>
-    </TokenIdentifier>
-    <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>abc2b0b1291a5da11028761e3a3ed097b</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>connectToHost:port:withConnectionHandler:messageHandler:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>MQTTSession</Scope>
-    </TokenIdentifier>
-    <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>acdad8a7c44b78c04eaaef5f6bc2593ec</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>connectToHost:port:usingSSL:withConnectionHandler:messageHandler:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>MQTTSession</Scope>
-    </TokenIdentifier>
-    <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>af41a9384007931bb624c80bcf1101bd4</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>connectAndWaitToHost:port:usingSSL:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>MQTTSession</Scope>
-    </TokenIdentifier>
-    <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>abde5a7876357d84972d414fe25843f89</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>subscribeToTopic:atLevel:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
       <Scope>MQTTSession</Scope>
     </TokenIdentifier>
     <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>ace91fa3ca0b5eb08a2a48706c840dab3</Anchor>
+    <Anchor>aafb7270fc99918effc0a39064ee5f91e</Anchor>
     <DeclaredIn>MQTTSession.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>subscribeTopic:</Name>
+      <Name>subscribeToTopic:atLevel:subscribeHandler:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
       <Scope>MQTTSession</Scope>
     </TokenIdentifier>
     <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>af3bb097c036b9441ce48adff45917322</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>subscribeAndWaitToTopic:atLevel:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>MQTTSession</Scope>
-    </TokenIdentifier>
-    <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>a2ca74869642b16ebf62a4b707cdb17d6</Anchor>
+    <Anchor>adaefcb4ee5a31355846653eddffc494f</Anchor>
     <DeclaredIn>MQTTSession.h</DeclaredIn>
   </Token>
   <Token>
@@ -249,18 +938,18 @@
       <Scope>MQTTSession</Scope>
     </TokenIdentifier>
     <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>aba1debfec65602b53c6e4b9c3bdf4af1</Anchor>
+    <Anchor>ad90eef680e3adc29a75556e4131bdbf6</Anchor>
     <DeclaredIn>MQTTSession.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>subscribeAndWaitToTopics:</Name>
+      <Name>subscribeToTopics:subscribeHandler:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
       <Scope>MQTTSession</Scope>
     </TokenIdentifier>
     <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>a42bce4703b36a0a18bd92a4b6a860767</Anchor>
+    <Anchor>a26abfdc1d64491bff4825727042e3342</Anchor>
     <DeclaredIn>MQTTSession.h</DeclaredIn>
   </Token>
   <Token>
@@ -276,13 +965,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>unsubscribeAndWaitTopic:</Name>
+      <Name>unsubscribeTopic:unsubscribeHandler:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
       <Scope>MQTTSession</Scope>
     </TokenIdentifier>
     <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>a4c84d933d4a15e11e9fc7657b8253e28</Anchor>
+    <Anchor>a49e7dde1369377da92ae0f7fc2eb187f</Anchor>
     <DeclaredIn>MQTTSession.h</DeclaredIn>
   </Token>
   <Token>
@@ -293,18 +982,18 @@
       <Scope>MQTTSession</Scope>
     </TokenIdentifier>
     <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>ae59a9a8f94477a1504178c59fc664cb9</Anchor>
+    <Anchor>ac93b09cbe98c4b8754180e344ef7e908</Anchor>
     <DeclaredIn>MQTTSession.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>unsubscribeAndWaitTopics:</Name>
+      <Name>unsubscribeTopics:unsubscribeHandler:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
       <Scope>MQTTSession</Scope>
     </TokenIdentifier>
     <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>af53fb3b6ad92239bf8d185a874e1c23e</Anchor>
+    <Anchor>a1d566cac765cdcdb2563ffa45ef53bbe</Anchor>
     <DeclaredIn>MQTTSession.h</DeclaredIn>
   </Token>
   <Token>
@@ -315,106 +1004,29 @@
       <Scope>MQTTSession</Scope>
     </TokenIdentifier>
     <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>af76085443daa0ceadf01acc828c91370</Anchor>
+    <Anchor>a7551772841b6bc2f46c0848d323fd0f7</Anchor>
     <DeclaredIn>MQTTSession.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>publishData:onTopic:</Name>
+      <Name>publishData:onTopic:retain:qos:publishHandler:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
       <Scope>MQTTSession</Scope>
     </TokenIdentifier>
     <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>a51b3078f3a68d0ea0abe85683151d608</Anchor>
+    <Anchor>a7cea798eb2e74c5885fa60dee04539f0</Anchor>
     <DeclaredIn>MQTTSession.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>publishDataAtLeastOnce:onTopic:</Name>
+      <Name>closeWithDisconnectHandler:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
       <Scope>MQTTSession</Scope>
     </TokenIdentifier>
     <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>a73d4fe58c076c3cbcccd2d7a6c000e9e</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>publishDataAtLeastOnce:onTopic:retain:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>MQTTSession</Scope>
-    </TokenIdentifier>
-    <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>a3e89f3d2f4567b7111dbad994f70106b</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>publishDataAtMostOnce:onTopic:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>MQTTSession</Scope>
-    </TokenIdentifier>
-    <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>a2b6e9d695e1ed9258489276ad4d3e176</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>publishDataAtMostOnce:onTopic:retain:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>MQTTSession</Scope>
-    </TokenIdentifier>
-    <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>a7c4e4bd2e5531a7c6e99584afc9ce75e</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>publishDataExactlyOnce:onTopic:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>MQTTSession</Scope>
-    </TokenIdentifier>
-    <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>aea24466e7d7f3a790d18f770ee96a336</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>publishDataExactlyOnce:onTopic:retain:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>MQTTSession</Scope>
-    </TokenIdentifier>
-    <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>aaefe746cdf09f309731265c8f01ab753</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>publishJson:onTopic:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>MQTTSession</Scope>
-    </TokenIdentifier>
-    <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>a3a6bf970d3496e953941b258d1a9a73c</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>publishAndWaitData:onTopic:retain:qos:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>MQTTSession</Scope>
-    </TokenIdentifier>
-    <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>a9ae63de719c3a395c6382cf48e8926ad</Anchor>
+    <Anchor>a5a617d3cee077dd60f48a340d4b34d99</Anchor>
     <DeclaredIn>MQTTSession.h</DeclaredIn>
   </Token>
   <Token>
@@ -426,28 +1038,6 @@
     </TokenIdentifier>
     <Path>interface_m_q_t_t_session.html</Path>
     <Anchor>a6e08af5a1b20daabe6be9b9a0618c440</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>closeAndWait</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>MQTTSession</Scope>
-    </TokenIdentifier>
-    <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>a08591f1296d67a36a8fa31d021bf544a</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>clientCertsFromP12:passphrase:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>clm</Type>
-      <Scope>MQTTSession</Scope>
-    </TokenIdentifier>
-    <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>a77824ce439d089ae8811acc2ed119824</Anchor>
     <DeclaredIn>MQTTSession.h</DeclaredIn>
   </Token>
   <Token>
@@ -468,7 +1058,17 @@
       <Scope>MQTTSession</Scope>
     </TokenIdentifier>
     <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>a0d2bf00e77c5f95fb0158f0ab729d1e9</Anchor>
+    <Anchor>ae97bbef7489e0eb1f3bbbc93b02b6f41</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>connectHandler</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>MQTTSession</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_session.html</Path>
+    <Anchor>a9c836110637be354f6acb52d328035e7</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -499,6 +1099,16 @@
     </TokenIdentifier>
     <Path>interface_m_q_t_t_session.html</Path>
     <Anchor>adff1474fe186b8af3bb4cac1ccd4ff2d</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sessionPresent</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>MQTTSession</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_session.html</Path>
+    <Anchor>ad0712c44abf0f514feb9462779d3e2b8</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -608,7 +1218,107 @@
       <Scope>MQTTSession</Scope>
     </TokenIdentifier>
     <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>a1876938dddeed1f536fcbaabad6f763a</Anchor>
+    <Anchor>a12e20758c5f8a1f0f2bd7dac339fe88f</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sessionExpiryInterval</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>MQTTSession</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_session.html</Path>
+    <Anchor>a03173ce5c561ad884fd4c3c86b893f54</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>authMethod</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>MQTTSession</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_session.html</Path>
+    <Anchor>a66319af49757a922a90fe0ad96ab9fac</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>authData</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>MQTTSession</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_session.html</Path>
+    <Anchor>a79dde69bcc1d7dbd56a30affeb994c20</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>requestProblemInformation</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>MQTTSession</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_session.html</Path>
+    <Anchor>ad8d55fb716b76724ffa009197dcf85f0</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>willDelayInterval</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>MQTTSession</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_session.html</Path>
+    <Anchor>ad4fb8060a057777d053aec803097c10a</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>requestResponseInformation</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>MQTTSession</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_session.html</Path>
+    <Anchor>a590a46485d04ce0d94740fe9f2957627</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>receiveMaximum</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>MQTTSession</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_session.html</Path>
+    <Anchor>a7b44b48ef732f87b41c5f9e7082ccc7a</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>topicAliasMaximum</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>MQTTSession</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_session.html</Path>
+    <Anchor>a4cd7f476fc8c6e86927afa8fad70b820</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>userProperty</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>MQTTSession</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_session.html</Path>
+    <Anchor>aa9f5d1f4c1ced1fd857b60e1f6888f42</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>maximumPacketSize</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>MQTTSession</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_session.html</Path>
+    <Anchor>a5f760a87b7c349e612e103f0147b516b</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -632,13 +1342,23 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>securityPolicy</Name>
+      <Name>connectMessage</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
       <Scope>MQTTSession</Scope>
     </TokenIdentifier>
     <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>a74f593a2857ccf22a5073a71a408e465</Anchor>
+    <Anchor>a44f63ba3383e0e5c5bed5e051cad9d2f</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>transport</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>MQTTSession</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_session.html</Path>
+    <Anchor>ab3839efa8f1e67c2a1270a0bfa7362c1</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -652,22 +1372,22 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>connectMessage</Name>
+      <Name>voip</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
       <Scope>MQTTSession</Scope>
     </TokenIdentifier>
     <Path>interface_m_q_t_t_session.html</Path>
-    <Anchor>a44f63ba3383e0e5c5bed5e051cad9d2f</Anchor>
+    <Anchor>a289e2046978f865a280c61725df526c1</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>MQTTSessionDelegate</Name>
+      <Name>MQTTSessionDelegate </Name>
       <APILanguage>c</APILanguage>
       <Type>intf</Type>
-      <Scope>MQTTSessionDelegate</Scope>
+      <Scope>MQTTSessionDelegate </Scope>
     </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_delegate-p.html</Path>
+    <Path>protocol_m_q_t_t_session_delegate_01-p.html</Path>
     <DeclaredIn>MQTTSession.h</DeclaredIn>
   </Token>
   <Token>
@@ -675,10 +1395,21 @@
       <Name>newMessage:data:onTopic:qos:retained:mid:</Name>
       <APILanguage>occ</APILanguage>
       <Type>intfm</Type>
-      <Scope>MQTTSessionDelegate-p</Scope>
+      <Scope>MQTTSessionDelegate -p</Scope>
     </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_delegate-p.html</Path>
-    <Anchor>a85ecb50aa7dfb9865ec6acfd1192b92c</Anchor>
+    <Path>protocol_m_q_t_t_session_delegate_01-p.html</Path>
+    <Anchor>a953cce622315d5f3072d91e52f6abf5c</Anchor>
+    <DeclaredIn>MQTTSession.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>newMessageWithFeedback:data:onTopic:qos:retained:mid:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>MQTTSessionDelegate -p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_session_delegate_01-p.html</Path>
+    <Anchor>aa96b47be7362179ca679ec1d14376ab7</Anchor>
     <DeclaredIn>MQTTSession.h</DeclaredIn>
   </Token>
   <Token>
@@ -686,10 +1417,10 @@
       <Name>session:newMessage:onTopic:</Name>
       <APILanguage>occ</APILanguage>
       <Type>intfm</Type>
-      <Scope>MQTTSessionDelegate-p</Scope>
+      <Scope>MQTTSessionDelegate -p</Scope>
     </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_delegate-p.html</Path>
-    <Anchor>a7c379d26811e242b52a05d09cf60d804</Anchor>
+    <Path>protocol_m_q_t_t_session_delegate_01-p.html</Path>
+    <Anchor>aacbda6f90a303f2f1a24cc364ba0f1d5</Anchor>
     <DeclaredIn>MQTTSession.h</DeclaredIn>
   </Token>
   <Token>
@@ -697,10 +1428,10 @@
       <Name>handleEvent:event:error:</Name>
       <APILanguage>occ</APILanguage>
       <Type>intfm</Type>
-      <Scope>MQTTSessionDelegate-p</Scope>
+      <Scope>MQTTSessionDelegate -p</Scope>
     </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_delegate-p.html</Path>
-    <Anchor>a168b8ff4bd95ffbfe61a8b10236860f8</Anchor>
+    <Path>protocol_m_q_t_t_session_delegate_01-p.html</Path>
+    <Anchor>adabd2fd2832f35d5e596b0307fe74fe3</Anchor>
     <DeclaredIn>MQTTSession.h</DeclaredIn>
   </Token>
   <Token>
@@ -708,10 +1439,10 @@
       <Name>session:handleEvent:</Name>
       <APILanguage>occ</APILanguage>
       <Type>intfm</Type>
-      <Scope>MQTTSessionDelegate-p</Scope>
+      <Scope>MQTTSessionDelegate -p</Scope>
     </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_delegate-p.html</Path>
-    <Anchor>a469397d413d288d61b98112f643d0f9c</Anchor>
+    <Path>protocol_m_q_t_t_session_delegate_01-p.html</Path>
+    <Anchor>aa308f351c7b824665fba1c6875789c1e</Anchor>
     <DeclaredIn>MQTTSession.h</DeclaredIn>
   </Token>
   <Token>
@@ -719,10 +1450,10 @@
       <Name>connected:</Name>
       <APILanguage>occ</APILanguage>
       <Type>intfm</Type>
-      <Scope>MQTTSessionDelegate-p</Scope>
+      <Scope>MQTTSessionDelegate -p</Scope>
     </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_delegate-p.html</Path>
-    <Anchor>a663f6af2141773ba925ddf4ca44a5b66</Anchor>
+    <Path>protocol_m_q_t_t_session_delegate_01-p.html</Path>
+    <Anchor>a01fe0f17f1c6faca6c21227203e5fd55</Anchor>
     <DeclaredIn>MQTTSession.h</DeclaredIn>
   </Token>
   <Token>
@@ -730,10 +1461,10 @@
       <Name>connected:sessionPresent:</Name>
       <APILanguage>occ</APILanguage>
       <Type>intfm</Type>
-      <Scope>MQTTSessionDelegate-p</Scope>
+      <Scope>MQTTSessionDelegate -p</Scope>
     </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_delegate-p.html</Path>
-    <Anchor>a443d92270a3c1a1cd0330f1be1e66952</Anchor>
+    <Path>protocol_m_q_t_t_session_delegate_01-p.html</Path>
+    <Anchor>aee43b13ba6cecba98c5b604c8a83bbdd</Anchor>
     <DeclaredIn>MQTTSession.h</DeclaredIn>
   </Token>
   <Token>
@@ -741,10 +1472,10 @@
       <Name>connectionRefused:error:</Name>
       <APILanguage>occ</APILanguage>
       <Type>intfm</Type>
-      <Scope>MQTTSessionDelegate-p</Scope>
+      <Scope>MQTTSessionDelegate -p</Scope>
     </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_delegate-p.html</Path>
-    <Anchor>a179c4f9104394b3843a20862d50fd813</Anchor>
+    <Path>protocol_m_q_t_t_session_delegate_01-p.html</Path>
+    <Anchor>a334a93246a59295ed3da062ef6c0a7fa</Anchor>
     <DeclaredIn>MQTTSession.h</DeclaredIn>
   </Token>
   <Token>
@@ -752,10 +1483,10 @@
       <Name>connectionClosed:</Name>
       <APILanguage>occ</APILanguage>
       <Type>intfm</Type>
-      <Scope>MQTTSessionDelegate-p</Scope>
+      <Scope>MQTTSessionDelegate -p</Scope>
     </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_delegate-p.html</Path>
-    <Anchor>a6ee6176897e9dc28236c562aece2a375</Anchor>
+    <Path>protocol_m_q_t_t_session_delegate_01-p.html</Path>
+    <Anchor>a6593d68033e6a0ceb424de60c357f035</Anchor>
     <DeclaredIn>MQTTSession.h</DeclaredIn>
   </Token>
   <Token>
@@ -763,10 +1494,10 @@
       <Name>connectionError:error:</Name>
       <APILanguage>occ</APILanguage>
       <Type>intfm</Type>
-      <Scope>MQTTSessionDelegate-p</Scope>
+      <Scope>MQTTSessionDelegate -p</Scope>
     </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_delegate-p.html</Path>
-    <Anchor>a8895314112168286947d78a102185ab2</Anchor>
+    <Path>protocol_m_q_t_t_session_delegate_01-p.html</Path>
+    <Anchor>a2c72b0bfc17acb27ce12b9f7c4b879e8</Anchor>
     <DeclaredIn>MQTTSession.h</DeclaredIn>
   </Token>
   <Token>
@@ -774,10 +1505,10 @@
       <Name>protocolError:error:</Name>
       <APILanguage>occ</APILanguage>
       <Type>intfm</Type>
-      <Scope>MQTTSessionDelegate-p</Scope>
+      <Scope>MQTTSessionDelegate -p</Scope>
     </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_delegate-p.html</Path>
-    <Anchor>a6ed1b59122ad0e0557b8bcf5de89f7ca</Anchor>
+    <Path>protocol_m_q_t_t_session_delegate_01-p.html</Path>
+    <Anchor>aef7d9bfd2b53c2e188a0b88554093db9</Anchor>
     <DeclaredIn>MQTTSession.h</DeclaredIn>
   </Token>
   <Token>
@@ -785,10 +1516,10 @@
       <Name>messageDelivered:msgID:</Name>
       <APILanguage>occ</APILanguage>
       <Type>intfm</Type>
-      <Scope>MQTTSessionDelegate-p</Scope>
+      <Scope>MQTTSessionDelegate -p</Scope>
     </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_delegate-p.html</Path>
-    <Anchor>a9937e5c9917389b2fde60b1e3a2d390c</Anchor>
+    <Path>protocol_m_q_t_t_session_delegate_01-p.html</Path>
+    <Anchor>ab96022535f3a7dce2234515ccf4259e3</Anchor>
     <DeclaredIn>MQTTSession.h</DeclaredIn>
   </Token>
   <Token>
@@ -796,10 +1527,10 @@
       <Name>subAckReceived:msgID:grantedQoss:</Name>
       <APILanguage>occ</APILanguage>
       <Type>intfm</Type>
-      <Scope>MQTTSessionDelegate-p</Scope>
+      <Scope>MQTTSessionDelegate -p</Scope>
     </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_delegate-p.html</Path>
-    <Anchor>aa7ed5b2382112dd077a4863407bacacc</Anchor>
+    <Path>protocol_m_q_t_t_session_delegate_01-p.html</Path>
+    <Anchor>a23603651fef7f317958e947c95a6a726</Anchor>
     <DeclaredIn>MQTTSession.h</DeclaredIn>
   </Token>
   <Token>
@@ -807,10 +1538,10 @@
       <Name>unsubAckReceived:msgID:</Name>
       <APILanguage>occ</APILanguage>
       <Type>intfm</Type>
-      <Scope>MQTTSessionDelegate-p</Scope>
+      <Scope>MQTTSessionDelegate -p</Scope>
     </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_delegate-p.html</Path>
-    <Anchor>ae1afb843f54b60cb82ce093b62b57101</Anchor>
+    <Path>protocol_m_q_t_t_session_delegate_01-p.html</Path>
+    <Anchor>a9f740585b1691979cdb40003eb9554b0</Anchor>
     <DeclaredIn>MQTTSession.h</DeclaredIn>
   </Token>
   <Token>
@@ -818,10 +1549,10 @@
       <Name>sending:type:qos:retained:duped:mid:data:</Name>
       <APILanguage>occ</APILanguage>
       <Type>intfm</Type>
-      <Scope>MQTTSessionDelegate-p</Scope>
+      <Scope>MQTTSessionDelegate -p</Scope>
     </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_delegate-p.html</Path>
-    <Anchor>a8c16339f900bfe2aa98a2aabdca44484</Anchor>
+    <Path>protocol_m_q_t_t_session_delegate_01-p.html</Path>
+    <Anchor>ae91831aacee0d83bbba7ba8e407b46d9</Anchor>
     <DeclaredIn>MQTTSession.h</DeclaredIn>
   </Token>
   <Token>
@@ -829,10 +1560,10 @@
       <Name>received:type:qos:retained:duped:mid:data:</Name>
       <APILanguage>occ</APILanguage>
       <Type>intfm</Type>
-      <Scope>MQTTSessionDelegate-p</Scope>
+      <Scope>MQTTSessionDelegate -p</Scope>
     </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_delegate-p.html</Path>
-    <Anchor>aefaae4e610a97984e2135bbd902081ca</Anchor>
+    <Path>protocol_m_q_t_t_session_delegate_01-p.html</Path>
+    <Anchor>a2e8ce3ec932c894249724e0d4191e94b</Anchor>
     <DeclaredIn>MQTTSession.h</DeclaredIn>
   </Token>
   <Token>
@@ -840,10 +1571,10 @@
       <Name>ignoreReceived:type:qos:retained:duped:mid:data:</Name>
       <APILanguage>occ</APILanguage>
       <Type>intfm</Type>
-      <Scope>MQTTSessionDelegate-p</Scope>
+      <Scope>MQTTSessionDelegate -p</Scope>
     </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_delegate-p.html</Path>
-    <Anchor>a83b477a650b00526b0a39599ddd6fd12</Anchor>
+    <Path>protocol_m_q_t_t_session_delegate_01-p.html</Path>
+    <Anchor>a83a727d0d2828817439834310c1eff1f</Anchor>
     <DeclaredIn>MQTTSession.h</DeclaredIn>
   </Token>
   <Token>
@@ -851,10 +1582,10 @@
       <Name>buffered:queued:flowingIn:flowingOut:</Name>
       <APILanguage>occ</APILanguage>
       <Type>intfm</Type>
-      <Scope>MQTTSessionDelegate-p</Scope>
+      <Scope>MQTTSessionDelegate -p</Scope>
     </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_delegate-p.html</Path>
-    <Anchor>a8d9602d0b89fa2c3a0009150e57edc87</Anchor>
+    <Path>protocol_m_q_t_t_session_delegate_01-p.html</Path>
+    <Anchor>acc3f5c247e8dec26d625ef08ad3d33e3</Anchor>
     <DeclaredIn>MQTTSession.h</DeclaredIn>
   </Token>
   <Token>
@@ -862,10 +1593,10 @@
       <Name>buffered:flowingIn:flowingOut:</Name>
       <APILanguage>occ</APILanguage>
       <Type>intfm</Type>
-      <Scope>MQTTSessionDelegate-p</Scope>
+      <Scope>MQTTSessionDelegate -p</Scope>
     </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_delegate-p.html</Path>
-    <Anchor>a66d6b40de38077ee28d05048eec4e3f9</Anchor>
+    <Path>protocol_m_q_t_t_session_delegate_01-p.html</Path>
+    <Anchor>a1702bf3189050f5f3f593a72f36f6408</Anchor>
     <DeclaredIn>MQTTSession.h</DeclaredIn>
   </Token>
   <Token>
@@ -880,13 +1611,46 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>initWithPersistence:maxWindowSize:maxMessages:maxSize:maxConnectionRetryInterval:connectInForeground:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>MQTTSessionManager</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_session_manager.html</Path>
+    <Anchor>a40c9ac2c9110a250caf35b16ff03f008</Anchor>
+    <DeclaredIn>MQTTSessionManager.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithPersistence:maxWindowSize:maxMessages:maxSize:connectInForeground:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>MQTTSessionManager</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_session_manager.html</Path>
+    <Anchor>acae1db469b891501860bc1fbcfb5d7d7</Anchor>
+    <DeclaredIn>MQTTSessionManager.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>initWithPersistence:maxWindowSize:maxMessages:maxSize:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
       <Scope>MQTTSessionManager</Scope>
     </TokenIdentifier>
     <Path>interface_m_q_t_t_session_manager.html</Path>
-    <Anchor>a99bcb6e9ae06072f890947a4f53d7dd2</Anchor>
+    <Anchor>ae57cebdca6694242b821cf089fea458d</Anchor>
+    <DeclaredIn>MQTTSessionManager.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>connectTo:port:tls:keepalive:clean:auth:user:pass:will:willTopic:willMsg:willQos:willRetainFlag:withClientId:securityPolicy:certificates:protocolLevel:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>MQTTSessionManager</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_session_manager.html</Path>
+    <Anchor>a81d38d54b7a1e1feea69ac4e80a7ff51</Anchor>
     <DeclaredIn>MQTTSessionManager.h</DeclaredIn>
   </Token>
   <Token>
@@ -897,7 +1661,7 @@
       <Scope>MQTTSessionManager</Scope>
     </TokenIdentifier>
     <Path>interface_m_q_t_t_session_manager.html</Path>
-    <Anchor>a58a397cb2851b3bb5c3cf2a49c109204</Anchor>
+    <Anchor>af3e7b52cf514bd47d5ec140dba16abf5</Anchor>
     <DeclaredIn>MQTTSessionManager.h</DeclaredIn>
   </Token>
   <Token>
@@ -908,7 +1672,7 @@
       <Scope>MQTTSessionManager</Scope>
     </TokenIdentifier>
     <Path>interface_m_q_t_t_session_manager.html</Path>
-    <Anchor>af50a6c56e8d19ef1e739cccb9e11722a</Anchor>
+    <Anchor>a1c0903acd31887dfa1e1d16039aa53ec</Anchor>
     <DeclaredIn>MQTTSessionManager.h</DeclaredIn>
   </Token>
   <Token>
@@ -919,7 +1683,7 @@
       <Scope>MQTTSessionManager</Scope>
     </TokenIdentifier>
     <Path>interface_m_q_t_t_session_manager.html</Path>
-    <Anchor>af0b3aa800e54438a160b1c1b78b27898</Anchor>
+    <Anchor>a4ebc8a89857aeae6377861c8fea310d2</Anchor>
     <DeclaredIn>MQTTSessionManager.h</DeclaredIn>
   </Token>
   <Token>
@@ -941,7 +1705,7 @@
       <Scope>MQTTSessionManager</Scope>
     </TokenIdentifier>
     <Path>interface_m_q_t_t_session_manager.html</Path>
-    <Anchor>a9593770a0aac359c57aee9260b2280a8</Anchor>
+    <Anchor>a7755c32b246dcefc8ad6d50a51f2e616</Anchor>
     <DeclaredIn>MQTTSessionManager.h</DeclaredIn>
   </Token>
   <Token>
@@ -954,204 +1718,6 @@
     <Path>interface_m_q_t_t_session_manager.html</Path>
     <Anchor>a71161804d040ca10e164578d7e7eb855</Anchor>
     <DeclaredIn>MQTTSessionManager.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>newMessage:data:onTopic:qos:retained:mid:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>intfm</Type>
-      <Scope>MQTTSessionDelegate-p</Scope>
-    </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_delegate-p.html</Path>
-    <Anchor>a85ecb50aa7dfb9865ec6acfd1192b92c</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>session:newMessage:onTopic:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>intfm</Type>
-      <Scope>MQTTSessionDelegate-p</Scope>
-    </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_delegate-p.html</Path>
-    <Anchor>a7c379d26811e242b52a05d09cf60d804</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>handleEvent:event:error:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>intfm</Type>
-      <Scope>MQTTSessionDelegate-p</Scope>
-    </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_delegate-p.html</Path>
-    <Anchor>a168b8ff4bd95ffbfe61a8b10236860f8</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>session:handleEvent:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>intfm</Type>
-      <Scope>MQTTSessionDelegate-p</Scope>
-    </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_delegate-p.html</Path>
-    <Anchor>a469397d413d288d61b98112f643d0f9c</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>connected:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>intfm</Type>
-      <Scope>MQTTSessionDelegate-p</Scope>
-    </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_delegate-p.html</Path>
-    <Anchor>a663f6af2141773ba925ddf4ca44a5b66</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>connected:sessionPresent:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>intfm</Type>
-      <Scope>MQTTSessionDelegate-p</Scope>
-    </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_delegate-p.html</Path>
-    <Anchor>a443d92270a3c1a1cd0330f1be1e66952</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>connectionRefused:error:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>intfm</Type>
-      <Scope>MQTTSessionDelegate-p</Scope>
-    </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_delegate-p.html</Path>
-    <Anchor>a179c4f9104394b3843a20862d50fd813</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>connectionClosed:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>intfm</Type>
-      <Scope>MQTTSessionDelegate-p</Scope>
-    </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_delegate-p.html</Path>
-    <Anchor>a6ee6176897e9dc28236c562aece2a375</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>connectionError:error:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>intfm</Type>
-      <Scope>MQTTSessionDelegate-p</Scope>
-    </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_delegate-p.html</Path>
-    <Anchor>a8895314112168286947d78a102185ab2</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>protocolError:error:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>intfm</Type>
-      <Scope>MQTTSessionDelegate-p</Scope>
-    </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_delegate-p.html</Path>
-    <Anchor>a6ed1b59122ad0e0557b8bcf5de89f7ca</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>messageDelivered:msgID:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>intfm</Type>
-      <Scope>MQTTSessionDelegate-p</Scope>
-    </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_delegate-p.html</Path>
-    <Anchor>a9937e5c9917389b2fde60b1e3a2d390c</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>subAckReceived:msgID:grantedQoss:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>intfm</Type>
-      <Scope>MQTTSessionDelegate-p</Scope>
-    </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_delegate-p.html</Path>
-    <Anchor>aa7ed5b2382112dd077a4863407bacacc</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>unsubAckReceived:msgID:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>intfm</Type>
-      <Scope>MQTTSessionDelegate-p</Scope>
-    </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_delegate-p.html</Path>
-    <Anchor>ae1afb843f54b60cb82ce093b62b57101</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>sending:type:qos:retained:duped:mid:data:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>intfm</Type>
-      <Scope>MQTTSessionDelegate-p</Scope>
-    </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_delegate-p.html</Path>
-    <Anchor>a8c16339f900bfe2aa98a2aabdca44484</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>received:type:qos:retained:duped:mid:data:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>intfm</Type>
-      <Scope>MQTTSessionDelegate-p</Scope>
-    </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_delegate-p.html</Path>
-    <Anchor>aefaae4e610a97984e2135bbd902081ca</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ignoreReceived:type:qos:retained:duped:mid:data:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>intfm</Type>
-      <Scope>MQTTSessionDelegate-p</Scope>
-    </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_delegate-p.html</Path>
-    <Anchor>a83b477a650b00526b0a39599ddd6fd12</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>buffered:queued:flowingIn:flowingOut:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>intfm</Type>
-      <Scope>MQTTSessionDelegate-p</Scope>
-    </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_delegate-p.html</Path>
-    <Anchor>a8d9602d0b89fa2c3a0009150e57edc87</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>buffered:flowingIn:flowingOut:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>intfm</Type>
-      <Scope>MQTTSessionDelegate-p</Scope>
-    </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_delegate-p.html</Path>
-    <Anchor>a66d6b40de38077ee28d05048eec4e3f9</Anchor>
-    <DeclaredIn>MQTTSession.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1171,7 +1737,17 @@
       <Scope>MQTTSessionManager</Scope>
     </TokenIdentifier>
     <Path>interface_m_q_t_t_session_manager.html</Path>
-    <Anchor>aad73993729e0ec889972042e99449957</Anchor>
+    <Anchor>a58ff79b8f16b7172d6466dfe55927428</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>effectiveSubscriptions</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>MQTTSessionManager</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_session_manager.html</Path>
+    <Anchor>a2c6507254d370d9f860b299608b37280</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1195,12 +1771,12 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>MQTTSessionManagerDelegate</Name>
+      <Name>MQTTSessionManagerDelegate </Name>
       <APILanguage>c</APILanguage>
       <Type>intf</Type>
-      <Scope>MQTTSessionManagerDelegate</Scope>
+      <Scope>MQTTSessionManagerDelegate </Scope>
     </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_manager_delegate-p.html</Path>
+    <Path>protocol_m_q_t_t_session_manager_delegate_01-p.html</Path>
     <DeclaredIn>MQTTSessionManager.h</DeclaredIn>
   </Token>
   <Token>
@@ -1208,10 +1784,422 @@
       <Name>handleMessage:onTopic:retained:</Name>
       <APILanguage>occ</APILanguage>
       <Type>intfm</Type>
-      <Scope>MQTTSessionManagerDelegate-p</Scope>
+      <Scope>MQTTSessionManagerDelegate -p</Scope>
     </TokenIdentifier>
-    <Path>protocol_m_q_t_t_session_manager_delegate-p.html</Path>
-    <Anchor>aa607c1d6a9a1b2a9ea9a707706c393bb</Anchor>
+    <Path>protocol_m_q_t_t_session_manager_delegate_01-p.html</Path>
+    <Anchor>a227652079bb618b7b72daeb2bc4ff2ec</Anchor>
     <DeclaredIn>MQTTSessionManager.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>messageDelivered:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>MQTTSessionManagerDelegate -p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_session_manager_delegate_01-p.html</Path>
+    <Anchor>ac5c24515442786b7f4ee2b29a103fac4</Anchor>
+    <DeclaredIn>MQTTSessionManager.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sessionManager:didChangeState:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>MQTTSessionManagerDelegate -p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_session_manager_delegate_01-p.html</Path>
+    <Anchor>a6569e1ca87d4e098645e715ac69dcc53</Anchor>
+    <DeclaredIn>MQTTSessionManager.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MQTTSSLSecurityPolicy</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>MQTTSSLSecurityPolicy</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_s_s_l_security_policy.html</Path>
+    <DeclaredIn>MQTTSSLSecurityPolicy.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>evaluateServerTrust:forDomain:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>MQTTSSLSecurityPolicy</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_s_s_l_security_policy.html</Path>
+    <Anchor>a1d6690010fc530144d98eaf31c9af7e4</Anchor>
+    <DeclaredIn>MQTTSSLSecurityPolicy.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>defaultPolicy</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>MQTTSSLSecurityPolicy</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_s_s_l_security_policy.html</Path>
+    <Anchor>abf1594bd6fedb9222d1b4b72b972c59a</Anchor>
+    <DeclaredIn>MQTTSSLSecurityPolicy.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>policyWithPinningMode:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>MQTTSSLSecurityPolicy</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_s_s_l_security_policy.html</Path>
+    <Anchor>a7d009f8f895d9305e5025bf37fda636d</Anchor>
+    <DeclaredIn>MQTTSSLSecurityPolicy.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SSLPinningMode</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>MQTTSSLSecurityPolicy</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_s_s_l_security_policy.html</Path>
+    <Anchor>aca548d3c82c982c275e6c68d92648d89</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>validatesCertificateChain</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>MQTTSSLSecurityPolicy</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_s_s_l_security_policy.html</Path>
+    <Anchor>ad54371d7cfb587c908173d032df33dbb</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>pinnedCertificates</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>MQTTSSLSecurityPolicy</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_s_s_l_security_policy.html</Path>
+    <Anchor>a83bc83437d250926466effce0a949371</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>allowInvalidCertificates</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>MQTTSSLSecurityPolicy</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_s_s_l_security_policy.html</Path>
+    <Anchor>a42fe688d550833a1f903be92b72cf384</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>validatesDomainName</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>MQTTSSLSecurityPolicy</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_s_s_l_security_policy.html</Path>
+    <Anchor>a905b5b1a0d5498ed11d36b9ca60514fc</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MQTTSSLSecurityPolicyTransport</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>MQTTSSLSecurityPolicyTransport</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_s_s_l_security_policy_transport.html</Path>
+    <DeclaredIn>MQTTSSLSecurityPolicyTransport.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>securityPolicy</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>MQTTSSLSecurityPolicyTransport</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_s_s_l_security_policy_transport.html</Path>
+    <Anchor>aad852e4a64b0134fd25c077733a6cd55</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>host</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>MQTTCFSocketTransport</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_c_f_socket_transport.html</Path>
+    <Anchor>ae30997b61a8be6b11bf3bb33cf751995</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>port</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>MQTTCFSocketTransport</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_c_f_socket_transport.html</Path>
+    <Anchor>a2b8899b8e97c85b4d9757705aa6ba968</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>tls</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>MQTTCFSocketTransport</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_c_f_socket_transport.html</Path>
+    <Anchor>ac0c5a60636d7561abf1d20caddf6ea96</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>voip</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>MQTTCFSocketTransport</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_c_f_socket_transport.html</Path>
+    <Anchor>a93ad817080f804937ad2bfd7d4db2b8b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>certificates</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>MQTTCFSocketTransport</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_c_f_socket_transport.html</Path>
+    <Anchor>a6e71885e479e6bc28e00f6657fe77205</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>clientCertsFromP12:passphrase:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>MQTTCFSocketTransport</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_c_f_socket_transport.html</Path>
+    <Anchor>ad16ebe588f4117e04f908e59935f096a</Anchor>
+    <DeclaredIn>MQTTCFSocketTransport.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MQTTTransport</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>MQTTTransport</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_transport.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MQTTTransport </Name>
+      <APILanguage>c</APILanguage>
+      <Type>intf</Type>
+      <Scope>MQTTTransport </Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_transport_01-p.html</Path>
+    <DeclaredIn>MQTTTransport.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>open</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>MQTTTransport -p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_transport_01-p.html</Path>
+    <Anchor>a429a7bae51d2c25dcface523c2a75dae</Anchor>
+    <DeclaredIn>MQTTTransport.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>send:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>MQTTTransport -p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_transport_01-p.html</Path>
+    <Anchor>adfba8a25ec9ae9cbc65d908018118555</Anchor>
+    <DeclaredIn>MQTTTransport.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>close</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>MQTTTransport -p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_transport_01-p.html</Path>
+    <Anchor>a7a0c40f02204b591d3e47ee02d83c5e6</Anchor>
+    <DeclaredIn>MQTTTransport.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>runLoop</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTTransport -p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_transport_01-p.html</Path>
+    <Anchor>a7b97ce4c4dcc299bcf68909cd31eb3d9</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>runLoopMode</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTTransport -p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_transport_01-p.html</Path>
+    <Anchor>af671f3734cc589cfca98add6750ac45d</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>delegate</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTTransport -p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_transport_01-p.html</Path>
+    <Anchor>a182ba6c4509d5b5e38ec0c783cd1b26d</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>state</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfp</Type>
+      <Scope>MQTTTransport -p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_transport_01-p.html</Path>
+    <Anchor>a599b4d50a3951a9effaa08895b45f340</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MQTTTransportDelegate </Name>
+      <APILanguage>c</APILanguage>
+      <Type>intf</Type>
+      <Scope>MQTTTransportDelegate </Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_transport_delegate_01-p.html</Path>
+    <DeclaredIn>MQTTTransport.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mqttTransport:didReceiveMessage:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>MQTTTransportDelegate -p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_transport_delegate_01-p.html</Path>
+    <Anchor>a19668acdd5d230dd7080a22560ce06a1</Anchor>
+    <DeclaredIn>MQTTTransport.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mqttTransportDidOpen:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>MQTTTransportDelegate -p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_transport_delegate_01-p.html</Path>
+    <Anchor>a90420bb9f04760681e64a4a799fe432b</Anchor>
+    <DeclaredIn>MQTTTransport.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mqttTransport:didFailWithError:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>MQTTTransportDelegate -p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_transport_delegate_01-p.html</Path>
+    <Anchor>a8a3b230eddcaa652f4e132c7a970d0f1</Anchor>
+    <DeclaredIn>MQTTTransport.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mqttTransportDidClose:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>MQTTTransportDelegate -p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_q_t_t_transport_delegate_01-p.html</Path>
+    <Anchor>afa32c4b8636994afa1ad02c6453971ff</Anchor>
+    <DeclaredIn>MQTTTransport.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MQTTWebsocketTransport</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>MQTTWebsocketTransport</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_websocket_transport.html</Path>
+    <DeclaredIn>MQTTWebsocketTransport.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>host</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>MQTTWebsocketTransport</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_websocket_transport.html</Path>
+    <Anchor>a1e4c2c9fa31f833f46379dc57ca9536d</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>port</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>MQTTWebsocketTransport</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_websocket_transport.html</Path>
+    <Anchor>a7a1139bbbe91d41a44b7b529dde39633</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>tls</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>MQTTWebsocketTransport</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_websocket_transport.html</Path>
+    <Anchor>a028dce824b120b670e0759c994066ce0</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>path</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>MQTTWebsocketTransport</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_websocket_transport.html</Path>
+    <Anchor>a9261bfd30cf1e8fa50de06f56f3c9c1b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>allowUntrustedCertificates</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>MQTTWebsocketTransport</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_websocket_transport.html</Path>
+    <Anchor>a4df39d1f59fd822446ed0630164475ae</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>pinnedCertificates</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>MQTTWebsocketTransport</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_q_t_t_websocket_transport.html</Path>
+    <Anchor>aaafe7397cd1c3e41240cd9752bcb446b</Anchor>
   </Token>
 </Tokens>
